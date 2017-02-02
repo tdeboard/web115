@@ -1,0 +1,31 @@
+body {
+text-align: center;
+vertical-align: middle;
+background-color: gray;
+}
+
+
+ h1 {
+            
+            color: black;
+            font-size: 50px;
+            font-weight: bold;
+            text-align: center;
+            margin: 10px;
+        }
+.container {
+            background: white;
+    max-width: 1060px;
+    min-height: 100px;
+    margin: 10px auto;
+    border: 5px solid black;
+    border-radius: 25px;
+    
+            }
+            
+            
+p
+{
+color: white;
+text-decoration: underline;
+}
