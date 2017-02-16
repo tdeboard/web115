@@ -1,0 +1,51 @@
+/**
+$offwhite: #EEE8D6;
+$blue: #0076A3;
+$purple: #6D73C2;
+
+
+$color-main: $offwhite;
+
+$font-main: Helvetica, sans-serif;
+
+h1 {
+    
+    color: $color-main;
+    background-color: $blue;
+    font-family: $font-main;
+    
+}
+
+.container{
+  color: $color-main;
+  padding: 2px;
+  margin: 5px;
+  
+  .inside {
+    border:1px dashed $purple;
+  }
+  
+}
+.out{
+  @extend .inside;
+ font-size: 30px; 
+}
+**/
+h1 {
+  color: #000000;
+  background-color: #0076A3;
+  font-family: Helvetica, sans-serif;
+}
+
+.container {
+  color: #000000;
+  padding: 2px;
+  margin: 5px;
+}
+.container .inside, .container .out {
+  border: 1px dashed #6D73C2;
+}
+
+.out {
+  font-size: 30px;
+}

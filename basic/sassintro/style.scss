@@ -1,0 +1,31 @@
+$black: #000000;
+$blue: #0076A3;
+$purple: #6D73C2;
+
+
+$color-main: $black;
+
+$font-main: Helvetica, sans-serif;
+
+h1 {
+    
+    color: $color-main;
+    background-color: $blue;
+    font-family: $font-main;
+    
+}
+
+.container{
+  color: $color-main;
+  padding: 2px;
+  margin: 5px;
+  
+  .inside {
+    border:1px dashed $purple;
+  }
+  
+}
+.out{
+  @extend .inside;
+ font-size: 30px; 
+}
